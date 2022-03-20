@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+a {
+
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    justify-content: center;
+}
+
+.hero-right {
+    flex-shrink: 0;
+}
+
+.prod-info, .card, .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.test-text {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.cta-box {
+    background-color: #3882f6;
+}
+
+.footer {
+    text-align: center;
+}
+
