@@ -79,7 +79,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 10%;
+    padding: 5% 10%;
 }
 
 #prod-info-heading {
@@ -104,7 +104,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 64px 20%;
+    padding: 5% 20%;
 }
 
 #test-text {
@@ -147,6 +147,9 @@ button {
     border: 2px solid white;
 }
 .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
     text-align: center;
+    padding: 2%;
 }
 
