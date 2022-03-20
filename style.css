@@ -4,11 +4,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
+
 
 h2 {
     font-size: 36px;
@@ -21,20 +17,24 @@ a {
     font-size: 18px;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 button {
-    padding: 8px 16px;
+    padding: 12px 24px;
     border-radius: 8px;
     background: #3882f6;
     border: 1px solid #3882f6;
     color: white;
-}
-
-.header, .hero {
-    background-color: #1f2937;
-    display: flex;
+    font-weight: bold;
 }
 
 .header {
+    background-color: #1f2937;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -44,19 +44,42 @@ button {
 }
 
 .header-links {
-    color: #e5e7eb;
-    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
 .hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 10%;
+}
+
+#hero-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+#hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    width: 40%;
 }
 
 .hero-right {
-    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
 .prod-info, .card, .testimonial {
